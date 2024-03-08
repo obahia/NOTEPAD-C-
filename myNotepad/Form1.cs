@@ -12,6 +12,7 @@ namespace myNotepad
 {
     public partial class Form1 : Form
     {
+        private string ficheiro = null;
         public Form1()
         {
             InitializeComponent();
@@ -24,7 +25,12 @@ namespace myNotepad
 
         }
 
-        private void copairToolStripMenuItem_Click(object sender, EventArgs e)
+        private void MenuEditarCopiar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MenuFicheiroNovo_Click(object sender, EventArgs e)
         {
 
         }
