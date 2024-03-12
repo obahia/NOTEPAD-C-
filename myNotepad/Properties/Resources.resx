@@ -118,38 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="noun-scissors-6657204" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noun-scissors-6657204.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="noun-mark-all-3067122" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noun-mark-all-3067122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="noun-files-1142307" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noun-files-1142307.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="noun-copy-to-4213618" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noun-copy-to-4213618.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="noun-file-6649169" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noun-file-6649169.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="noun-pallete-5924548" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noun-pallete-5924548.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="noun-search-6655766" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noun-search-6655766.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="noun-text-3493441" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noun-text-3493441.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="noun-save-1014816" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noun-save-1014816.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="noun-file-1408009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noun-file-1408009.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="noun-exit-1016630" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\noun-exit-1016630.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="noun-file-1408009" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noun-file-1408009.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="noun-files-1142307" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noun-files-1142307.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noun-scissors-6657204" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noun-scissors-6657204.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noun-file-6649169" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noun-file-6649169.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="noun-text-1264508" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\noun-text-1264508.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -159,5 +141,26 @@
   </data>
   <data name="noun-text-585637" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\noun-text-585637.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noun-mark-all-3067122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noun-mark-all-3067122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noun-save-1014816" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noun-save-1014816.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noun-pallete-5924548" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noun-pallete-5924548.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noun-text-3493441" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noun-text-3493441.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noun-search-6655766" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noun-search-6655766.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noun-copy-to-4213618" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noun-copy-to-4213618.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FILE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FILE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -63,6 +63,16 @@ namespace myNotepad.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FILE {
+            get {
+                object obj = ResourceManager.GetObject("FILE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap noun_copy_to_4213618 {
             get {
                 object obj = ResourceManager.GetObject("noun-copy-to-4213618", resourceCulture);
