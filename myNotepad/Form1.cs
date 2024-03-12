@@ -190,5 +190,13 @@ namespace myNotepad
         {
 
         }
+
+        private void btnInfo_Click(object sender, EventArgs e)
+        {
+
+            DialogResult resposta = MessageBox.Show("Autor: João Bahia\nVersão: 1.0 \nCopyRight© Bahia Team", "Informação",
+                                                   MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
     }
 }
