@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.VisualBasic;
+using System.IO;
 
 namespace myNotepad
 {
@@ -23,11 +24,55 @@ namespace myNotepad
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            VerificarExistenciaDoFicheiro();
+        }
+
+        private void VerificarExistenciaDoFicheiro()
+        {
+            string pastaDocumentos = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            string caminhodoficheiro = Path.Combine(pastaDocumentos, "texto.txt");
+
+            if (File.Exists(caminhodoficheiro))
+            {
+                DialogResult resposta = MessageBox.Show("Deseja abrir o ficheiro existente?", "Arquivo encotrado", 
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if(resposta == DialogResult.Yes)
+                {
+                    AbrirFicheiro(caminhodoficheiro);
+                }
+                else
+                {
+                    ficheiro = "";
+                  
+                }
+            }
+            else
+            {
+                DialogResult resposta = MessageBox.Show("O ficheiro texto.txt não foi encotrado. Deseja criar um novo?", "Arquivo não encotrado"
+                    , MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (resposta == DialogResult.Yes)
+                {
+                    ficheiro = "";
+                }
+                else
+                {
+                    Close();
+                }
+            }
+        }
+
+        private void AbrirFicheiro(string caminhodoficheiro)
+        {
+            ficheiro = caminhodoficheiro;
+            rbTexto.LoadFile(ficheiro);
+            rbTexto.Modified = false;
 
         }
 
-      
-
+       
+            
         private void MenuFicheiroNovo_Click(object sender, EventArgs e)
         {
             VerificarAlteracoes();
@@ -65,15 +110,42 @@ namespace myNotepad
 
         private void MenuFicheiroSair_Click(object sender, EventArgs e)
         {
-            DialogResult resposta = MessageBox.Show("Deseja sair da aplicação?", "Aviso",
-                                                     MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if(resposta == DialogResult.Yes)
-            {
-                VerificarAlteracoes();
-            }
+            VerificarAlteracoesAntesDeSair();
         }
 
+        private void VerificarAlteracoesAntesDeSair()
+        {
+            if (rbTexto.Modified)
+            {
+                DialogResult resposta = MessageBox.Show("Deseja guardar as alterações antes de sair?", "Atenção",
+                    MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+
+                if (resposta == DialogResult.Yes)
+                {
+                    SalvarFicheiro();
+                }
+                else if (resposta == DialogResult.Cancel)
+                {
+                    return; 
+                }
+            }
+
+            // Sair do aplicativo
+            Application.Exit();
+        }
+
+        private void SalvarFicheiro()
+        {
+            if (ficheiro != "")
+            {
+                rbTexto.SaveFile(ficheiro);
+                rbTexto.Modified = false;
+            }
+            else
+            {
+                GuardarFicheiro();
+            }
+        }
         private void VerificarAlteracoes()
         {
             if(rbTexto.Modified == true)

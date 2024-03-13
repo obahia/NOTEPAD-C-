@@ -8,3 +8,13 @@ C:\Users\53024\Documents\GitHub\NOTEPAD-CSHARP\myNotepad\obj\Debug\myNotepad.csp
 C:\Users\53024\Documents\GitHub\NOTEPAD-CSHARP\myNotepad\obj\Debug\myNotepad.csproj.CoreCompileInputs.cache
 C:\Users\53024\Documents\GitHub\NOTEPAD-CSHARP\myNotepad\obj\Debug\myNotepad.exe
 C:\Users\53024\Documents\GitHub\NOTEPAD-CSHARP\myNotepad\obj\Debug\myNotepad.pdb
+C:\Users\53024\source\repos\NOTEPAD-CSHARP\myNotepad\obj\Debug\myNotepad.csproj.AssemblyReference.cache
+C:\Users\53024\source\repos\NOTEPAD-CSHARP\myNotepad\obj\Debug\myNotepad.Form1.resources
+C:\Users\53024\source\repos\NOTEPAD-CSHARP\myNotepad\obj\Debug\myNotepad.Properties.Resources.resources
+C:\Users\53024\source\repos\NOTEPAD-CSHARP\myNotepad\obj\Debug\myNotepad.csproj.GenerateResource.cache
+C:\Users\53024\source\repos\NOTEPAD-CSHARP\myNotepad\obj\Debug\myNotepad.csproj.CoreCompileInputs.cache
+C:\Users\53024\source\repos\NOTEPAD-CSHARP\myNotepad\obj\Debug\myNotepad.exe
+C:\Users\53024\source\repos\NOTEPAD-CSHARP\myNotepad\obj\Debug\myNotepad.pdb
+C:\Users\53024\source\repos\NOTEPAD-CSHARP\myNotepad\bin\Debug\myNotepad.exe.config
+C:\Users\53024\source\repos\NOTEPAD-CSHARP\myNotepad\bin\Debug\myNotepad.exe
+C:\Users\53024\source\repos\NOTEPAD-CSHARP\myNotepad\bin\Debug\myNotepad.pdb
